@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+/* For Home Page style */
+
+.poster 
+{
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.content
+{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  /* transition: 0.3s; */
+}
+
+.content:hover
+{
+  /* animation-delay: 0.5s; */
+  /* transition-delay: 0.5s; */
+  border: 1px solid green;
+}
