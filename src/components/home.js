@@ -60,8 +60,9 @@ export default class Home extends Component {
                                 </div>
                             ))}
                         </React.Fragment>
+                        
                     </form>
-
+                    <input type="text" className="form-control shadow" data-testid='text1' placeholder="Enter your Name"/>
                 </div>
             );
         }
